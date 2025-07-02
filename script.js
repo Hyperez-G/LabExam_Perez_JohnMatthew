@@ -8,8 +8,8 @@ window.onload = function () {
     if (username === '' || password === '') {
       alert('Please fill in all fields.');
       e.preventDefault();
-    }else {
-      window.location.href("home.html")
+    } else {
+      window.location.href = "home.html";
     }
   });
 };
